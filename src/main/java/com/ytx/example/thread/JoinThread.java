@@ -22,8 +22,7 @@ public class JoinThread {
     public static void main(String[] args) throws InterruptedException {
         join();
     }
-
-    private static void join() throws InterruptedException {
+    public static void join() throws InterruptedException {
         Thread t1 = new Thread(new Runnable() {
             @Override
             public void run() {
