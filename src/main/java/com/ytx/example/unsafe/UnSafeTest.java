@@ -23,8 +23,6 @@ public class UnSafeTest {
         Unsafe unsafe = getUnsafeInstance();
         Class joinThreadClass = JoinThread.class;
         JoinThread joinThread = (JoinThread) unsafe.allocateInstance(joinThreadClass);
-        int addressSize = unsafe.addressSize();
-        System.out.println("addressSize:" + addressSize);
         joinThread.sayJoinThread();
         joinThread.join();
 
