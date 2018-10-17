@@ -5,6 +5,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
  * 写锁数据自增
+ * 写锁的速度是最快的3000ms~4000ms，多线程下结果正确
  *
  * @author Rosan
  * @version 1.0

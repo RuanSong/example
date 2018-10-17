@@ -5,6 +5,8 @@ import sun.misc.Unsafe;
 
 /**
  * CAS操作数据自增
+ * <p>
+ * CAS多线程下结果正确，速度适中,8000ms~9000ms
  *
  * @author Rosan
  * @version 1.0
